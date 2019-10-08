@@ -22,6 +22,7 @@ body {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    flex-wrap: wrap;
 
 }
 h3.heading {
@@ -48,13 +49,14 @@ h3.heading span{
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
+    min-width: 224px;
 }
 .agileits-pricing-grid:hover {
-    transform: scale(1.06);
-    -webkit-transform: scale(1.06);
-    -moz-transform: scale(1.06);
-    -o-transform: scale(1.06);
-    -ms-transform: scale(1.06);
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
     z-index: 1;
 }
 .pricing-top{
@@ -318,4 +320,9 @@ p.text {
 }
 .footer p a:hover {
    text-decoration:underline;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
 }
